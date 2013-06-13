@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TWidget</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+		<!--CSS-->
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+		<!--JS-->
+		<script src="js/zapto.min.js"></script>
+        <script src="js/app.js"></script>
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+		
+		<!-- jScrollPane -->
+		<!-- styles needed by jScrollPane -->
+		<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+		<!-- the mousewheel plugin - optional to provide mousewheel support -->
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+
+		<!-- the jScrollPane script -->
+		<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>		
+
+		<!-- initialize jScrollPane -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+					$('#twitterBody').jScrollPane();	
+				});
+		</script>		
+	
+    </head>
+
+    <body>
+		<div class="page">
+			<div id="pageHeader">
+				<header>
+					<span>Header</span>
+				</header>
+			</div>
+
+			<div id="articleTop" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<article id="article" draggable="true" ondragstart="drag(event)">
+					<span>Article</span>
+				</article>
+			</div>
+				
+				<div id="sidebarRight" ondrop="drop(event)" ondragover="allowDrop(event)">
+					<div id="sidebar">
+						<div id="twitterContainer"  draggable="true" ondragstart="drag(event)">
+							<div id="twitterHeader">
+								<img src="img/twitter_log.png" width="107" height="21" class="twitterLogo" alt="Twitter" />
+								
+								<div id="twitterHeaderText">
+									<p>In it to win it<br><span class="twitterHeaderTextBigText">RIGHT NOW</span></p>
+								</div>
+							</div>
+							<div id="twitterBody">
+								<table>
+
+								<!-- TWEET 1 -->
+									<tr>
+										<td rowspan="2"><img src="img/profileImage.jpg" width="30" height="30" alt="Profile image" /></td>
+										<td><p class="twitterUsername">mynameis</p></td>
+									</tr>
+									<tr>
+										<td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula eros, ..."</td>
+									</tr>
+									<tr>
+										<td colspan="2"><hr class="dottedLine"></td>
+									</tr>
+								<!-- END TWEET 1 -->
+
+								<!-- TWEET 2 -->
+									<tr>
+										<td rowspan="2"><img src="img/profileImage.jpg" width="30" height="30" alt="Profile image" /></td>
+										<td><p class="twitterUsername">mynameis</p></td>
+									</tr>
+									<tr>
+										<td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula eros, ..."</td>
+									</tr>
+									<tr>
+										<td colspan="2"><hr class="dottedLine"></td>
+									</tr>
+								<!-- END TWEET 2 -->
+
+								<!-- TWEET 3 -->
+									<tr>
+										<td rowspan="2"><img src="img/profileImage.jpg" width="30" height="30" alt="Profile image" /></td>
+										<td><p class="twitterUsername">mynameis</p></td>
+									</tr>
+									<tr>
+										<td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula eros, ..."</td>
+									</tr>
+									<tr>
+										<td colspan="2"><hr class="dottedLine"></td>
+									</tr>
+								<!-- END TWEET 3 -->
+
+								<!-- TWEET 4 -->
+									<tr>
+										<td rowspan="2"><img src="img/profileImage.jpg" width="30" height="30" alt="Profile image" /></td>
+										<td><p class="twitterUsername">mynameis</p></td>
+									</tr>
+									<tr>
+										<td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula eros, ..."</td>
+									</tr>
+									<tr>
+										<td colspan="2"><hr class="dottedLine"></td>
+									</tr>
+								<!-- END TWEET 4 -->
+
+								<!-- TWEET 5 -->
+									<tr>
+										<td rowspan="2"><img src="img/profileImage.jpg" width="30" height="30" alt="Profile image" /></td>
+										<td><p class="twitterUsername">mynameis</p></td>
+									</tr>
+									<tr>
+										<td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula eros, ..."</td>
+									</tr>
+									<tr>
+										<td colspan="2"><hr class="dottedLine"></td>
+									</tr>
+								<!-- END TWEET 5 -->
+
+								<!-- TWEET 6 -->
+									<tr>
+										<td rowspan="2"><img src="img/profileImage.jpg" width="30" height="30" alt="Profile image" /></td>
+										<td><p class="twitterUsername">mynameis</p></td>
+									</tr>
+									<tr>
+										<td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula eros, ..."</td>
+									</tr>
+									<tr>
+										<td colspan="2"><hr class="dottedLine"></td>
+									</tr>
+								<!-- END TWEET 6 -->
+								</table>
+							</div>
+							<div id="twitterFooter">
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div id="sidebarLeft" ondrop="drop(event)" ondragover="allowDrop(event)">
+					<div id="sidebar2">
+						<span></span>
+					</div>
+				</div>
+			
+			<div class="clear"></div>
+            
+			<div id="articleBottom" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+			
+			<div id="pageFooter">	
+				<footer>
+					<span>Footer</span>
+				</footer>
+			</div>
+			
+        </div>
+    </body>
+</html>

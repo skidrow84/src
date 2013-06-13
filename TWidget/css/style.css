@@ -1,0 +1,145 @@
+/* 
+    Document   : style
+    Created on : Feb 25, 2013, 10:38:04 AM
+    Author     : mika2
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html,
+body {
+    background-color: #3d79d0;
+    font-family: ubuntu;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    height: 100%;
+}
+
+.page {
+    max-width: 980px;
+    width: 980px;
+    margin: auto;
+}
+
+footer,
+header {
+    margin: 1em 0em;
+    height: 200px;
+    width: 100%;
+}
+
+header, footer, article, #sidebar, #sidebar2 {
+    border: 2px dashed white;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+article {
+    float: left;
+    width: 100%;
+}
+
+#sidebar, #sidebar2 {
+    width: 99%;
+	height: 98%;
+	margin-top:2px;
+	margin-left:3px; 
+}
+
+#articleTop {
+	width:100%;
+	height:63px;
+	background-color:#005099;
+	clear:both;
+	padding-top:5px;
+	margin-bottom:10px;
+}
+
+#articleBottom {
+	width:100%;
+	height:63px;
+	background-color:#005099;
+	clear:both;
+	padding-top:5px;
+	margin-top:15px;
+	background-image: url(../img/drag_article.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#sidebarArea {
+	width:100%;
+	height:475px;
+	clear:both;
+}
+
+#sidebarRight {
+	width:40%;
+	height:475px;
+	background-color:#005099;
+	float:right;
+}
+#sidebarLeft {
+	width:40%;
+	height:475px;
+	background-color:#005099;
+	float:left;
+	background-image: url(../img/drag_widget.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#twitterContainer{
+	width:355px;
+	height:418px;
+	background-color:white;
+}
+
+#twitterHeader{
+	height:40px;
+	background-color:#0096c4;
+}
+
+.twitterLogo{display:inline; margin-top:10px; margin-left:14px; float:left;}
+
+#twitterHeaderText{display:inline; float:right; margin-top:4px; margin-right:10px; font-family: "Myriad Pro",Arial,Helvetica,sans-serif; font-size:10px; text-align:right; text-shadow:1px 1px #333333; line-height:140%;}
+.twitterHeaderTextBigText{font-size:12px;font-weight:bold;}
+
+#twitterBody{
+
+	height:358px;
+	background-color:white;
+}
+
+#twitterFooter{
+	
+	height:40px;
+	background-color:#0096c4;
+}
+
+table {
+	background-color:#ffffff;
+	font-family: "Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:12px;
+	color:#393939;
+	margin:24px;
+	
+	border-spacing: 2px;
+}
+
+td{
+	vertical-align:top;
+    padding: 3px;
+}
+
+
+table td{text-align:left;}
+table p.twitterUsername {color:#008fba;}
+
+.dottedLine{
+
+border:#dddddd 1px dotted;
+border-style: none none dotted;
+color:#fff;
+}
